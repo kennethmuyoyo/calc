@@ -1,0 +1,72 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "polynomial-calculator-ken01",
+          "appId": "1:543172942770:android:e6d240468988526cf122ab",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "polynomial-calculator-ken01",
+          "appId": "1:543172942770:ios:f76e646783b67cbaf122ab",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "polynomial-calculator-ken01",
+          "appId": "1:543172942770:ios:f76e646783b67cbaf122ab",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "polynomial-calculator-ken01",
+          "configurations": {
+            "android": "1:543172942770:android:e6d240468988526cf122ab",
+            "ios": "1:543172942770:ios:f76e646783b67cbaf122ab",
+            "macos": "1:543172942770:ios:f76e646783b67cbaf122ab",
+            "web": "1:543172942770:web:ec35ebdec67b7275f122ab",
+            "windows": "1:543172942770:web:dfbb4c2177d87921f122ab"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "pubsub": {
+      "port": 8085
+    },
+    "storage": {
+      "port": 9199
+    },
+    "dataconnect": {
+      "port": 9399
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  }
+}
